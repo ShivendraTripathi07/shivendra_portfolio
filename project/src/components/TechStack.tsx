@@ -3,7 +3,7 @@ const TechStack = () => {
     Languages: ['C', 'C++', 'JavaScript', 'Python', 'TypeScript'],
     'Developer Tools': ['Git/GitHub', 'VS Code', 'Jupyter Notebook'],
     'Frontend Technologies': ['HTML', 'CSS', 'TailwindCSS', 'ReactJS', 'MUI'],
-    'Backend Technologies': ['Node.js', 'Express.js', 'MongoDB', 'SQL', 'PostgreSQL'],
+    'Backend Technologies': ['Node.js', 'Express.js', 'MongoDB', 'SQL', 'PostgreSQL','Django'],
   };
 
   return (

@@ -12,6 +12,7 @@ import Sanrakshak from "./../assests/Sanrakshak.png";
 import Yahtzee from "./../assests/Yahtzee.png";
 import Manas from "./../assests/Manas.png";
 import SocioPedia from "./../assests/SocioPedia.png";
+import SocialMedia from "./../assests/SocialMedia.png"
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -67,6 +68,19 @@ const Projects = () => {
       image: Sanrakshak,
       source_code_link: "https://github.com/Tanay-22/SIH-24-1867",
       demo: "https://66f31609de5df22b14fc68f6--mellow-faun-faeaa2.netlify.app/",
+    },
+    {
+      name: "SocialMediaApp",
+      description:
+        "The project is a simple social media application that allows users to post pictures and view their profiles. Built using Django for the backend and HTML/CSS for the frontend, the platform provides a seamless experience for users to share images and engage with their content. The application ensures smooth navigation, user authentication, and a clean interface for profile management.",
+      tags: [
+        { name: "Django", color: "blue-text-gradient" },
+        { name: "Html", color: "green-text-gradient" },
+        { name: "css", color: "pink-text-gradient" },
+      ],
+      image: SocialMedia,
+      source_code_link: "https://github.com/ShivendraTripathi07/DjangoSocialMedia",
+      // demo: "https://66f31609de5df22b14fc68f6--mellow-faun-faeaa2.netlify.app/",
     },
     {
       name: "Manas",

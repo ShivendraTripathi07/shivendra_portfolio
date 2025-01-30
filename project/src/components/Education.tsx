@@ -61,7 +61,8 @@ const Education = () => {
           </div>
 
           {/* Right Content - Image */}
-          <div className="relative group h-[400px] lg:h-[500px] mb-5 -mt3">
+          <div className="hidden md:block md:relative md:group md:h-[400px] md:lg:h-[500px] md:mb-5 -mt-3">
+
             {/* Glow Effect */}
             <div className="absolute -inset-1 bg-gradient-to-r  rounded-2xl blur-xl opacity-0 group-hover:opacity-75 transition duration-1000 group-hover:duration-200" />
 
